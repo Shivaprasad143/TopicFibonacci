@@ -24,7 +24,6 @@ namespace FibonacciSeries
             int term = Convert.ToInt32(Console.ReadLine());
             int Result = FibonacciSeries(term);
             Console.Write("the term {0} of the fibonacci series is :  " + Result, term);
-
             Console.ReadKey();
         }
     }
